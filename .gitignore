@@ -43,3 +43,29 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+# Flutter/Dart/Pub
+.dart_tool/
+.packages
+.pub/
+build/
+
+# iOS
+ios/Flutter/.last_build_id
+ios/Pods/
+ios/Runner.xcworkspace/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+*.xcuserstate
+DerivedData/
+
+# Android
+.gradle/
+**/build/
+local.properties
+
+# VS Code
+.vscode/
+
+# Misc
+*.log
